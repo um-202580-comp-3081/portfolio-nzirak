@@ -1,10 +1,53 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafaf8;
+  margin: 0;
+}
+
+
+
+header {
+  background: #111;
+  padding: 8px 16px;
+}
+
+header nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: underline;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+footer {
+  background: #f3f3f3;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
 .page-home {
-  background: #A0B59F; 
-  min-height: 100vh;   
+  background: #A0B59F;      
+  min-height: 100vh;
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 16px;
   color: #222;
+  box-sizing: border-box;
 }
 
 .portfolio-title {
@@ -13,22 +56,31 @@
 }
 
 .title-main {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 48px;
   letter-spacing: 2px;
 }
 
 .title-sub {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
   margin-top: -5px;
   color: #333;
 }
 
+
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+
 .page-about,
 .page-work {
-  background: #D2B48C;       
-  color: #6B4F2C;              
+  background: #D2B48C;      
+  color: #6B4F2C;            
   min-height: 100vh;
   position: relative;
   left: 50%;
@@ -36,32 +88,56 @@
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
-  padding: 24px 16px 40px;
+  padding: 24px 32px 40px;
+  box-sizing: border-box;
 }
 
-.page-about h1, .page-about h2, .page-about h3,
-.page-work h1,  .page-work h2,  .page-work h3,
-.page-about p,  .page-work p {
+.page-about h1,
+.page-about h2,
+.page-about h3,
+.page-work h1,
+.page-work h2,
+.page-work h3,
+.page-about p,
+.page-work p {
   color: #6B4F2C;
 }
 
-.page-about .win,
-.page-work  .win {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
+
+.page-about ul,
+.page-work ul {
+  padding-left: 20px;
 }
 
-.page-about .win .content,
-.page-work  .win .content {
-  background: transparent !important;
-  padding-left: 0;
-  padding-right: 0;
+
+
+.page-work h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.page-about .bar,
-.page-work  .bar {
-  background: transparent;
-  color: #6B4F2C;
-  padding-left: 0;
+
+
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-top: 4px solid #D2B48C;
+  border-bottom: 4px solid #D2B48C;
+  box-sizing: border-box;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.project-card p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.project-card strong {
+  color: #000000;
 }
