@@ -1,66 +1,47 @@
-
-
 body {
   font-family: Arial, sans-serif;
   background: #fafaf8;
   margin: 0;
 }
-
-
-
 header {
   background: #111;
   padding: 8px 16px;
 }
-
 header nav a {
   color: white;
   margin-right: 15px;
   text-decoration: underline;
 }
-
 header nav a:last-child {
   margin-right: 0;
 }
-
-
-
 main {
   max-width: 960px;
   margin: 0 auto;
 }
-
-
-
 footer {
   background: #f3f3f3;
   padding: 10px;
   text-align: center;
   font-size: 14px;
 }
-
-
-
 .page-home {
-  background: #A0B59F;      
+  background: #A0B59F;
   min-height: 100vh;
   width: 100%;
   padding: 40px 16px;
   color: #222;
   box-sizing: border-box;
 }
-
 .portfolio-title {
   text-align: center;
   margin-bottom: 30px;
 }
-
 .title-main {
   font-family: "Cormorant Garamond", serif;
   font-size: 48px;
   letter-spacing: 2px;
 }
-
 .title-sub {
   font-family: "Playfair Display", serif;
   font-size: 24px;
@@ -68,19 +49,18 @@ footer {
   color: #333;
 }
 
-
 .home-content {
   max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
 }
-
-
-
 
 .page-about,
 .page-work {
-  background: #D2B48C;      
-  color: #6B4F2C;            
+  background: #D2B48C;
+  color: #6B4F2C;
   min-height: 100vh;
   position: relative;
   left: 50%;
@@ -91,7 +71,6 @@ footer {
   padding: 24px 32px 40px;
   box-sizing: border-box;
 }
-
 .page-about h1,
 .page-about h2,
 .page-about h3,
@@ -102,22 +81,14 @@ footer {
 .page-work p {
   color: #6B4F2C;
 }
-
-
 .page-about ul,
 .page-work ul {
   padding-left: 20px;
 }
-
-
-
 .page-work h2 {
   margin-top: 0;
   margin-bottom: 20px;
 }
-
-
-
 .project-card {
   background: #ffffff;
   padding: 20px;
@@ -126,18 +97,15 @@ footer {
   border-bottom: 4px solid #D2B48C;
   box-sizing: border-box;
 }
-
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 8px;
   color: #000000;
 }
-
 .project-card p {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
 .project-card strong {
   color: #000000;
 }
